@@ -4,7 +4,7 @@ const port = 3000;
 
 
 app.use('/', (req, res) => {
-    res.send("server is up and running");
+    res.send("connected !");
 })
 
 app.listen(port, () => {
