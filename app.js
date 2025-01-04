@@ -4,6 +4,8 @@ const port = 3000;
 
 
 app.use('/', (req, res) => {
+    console.log("printing...");
+    
     res.send("connected !");
 })
 
